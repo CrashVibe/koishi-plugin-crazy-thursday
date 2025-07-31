@@ -10,9 +10,10 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "moduleResolution": "node",
-    "strictBindCallApply": true,
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "strictBindCallApply": true
   },
-  "include": [
-    "src",
-  ],
+  "include": ["src"]
 }
